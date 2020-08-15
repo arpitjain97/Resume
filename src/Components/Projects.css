@@ -1,0 +1,26 @@
+
+.Projects__heading{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    font-family: Helvetica;
+
+}
+.Projects__heading p{
+    font-size:2.2rem;
+}
+.Projects__heading p:hover{
+    text-decoration: underline ;
+}
+.Projects__project{
+    display: flex;
+    justify-content:center;
+    border: 1px solid black;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.Projects__project ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}

@@ -1,0 +1,9 @@
+.Detail{
+    background-color: whitesmoke; 
+    box-shadow: azure 5px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.Detail:hover{
+    background-color:#e6e0e0;
+}

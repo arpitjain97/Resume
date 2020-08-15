@@ -1,0 +1,34 @@
+.image_container{
+    display: flex;
+    box-shadow: azure;
+    min-width: 22rem;
+    background-color: whitesmoke; 
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.image_container:hover{
+    background-color:#e6e0e0;
+}
+.image_container img{
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 1px solid black;
+    object-fit: contain;
+}
+p{
+    font-size: 4rem;
+    font-weight: lighter;
+}
+.image_container__details{
+    flex-direction: column;
+}
+.image_container__connect{
+    padding:0;
+}
+.image_container__connect a{
+    font-size: .5rem;
+    text-decoration: none;
+    color:black;
+    padding: 0%;
+    margin:0%;  
+}

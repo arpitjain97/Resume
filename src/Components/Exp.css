@@ -1,0 +1,25 @@
+
+.Exp__heading{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    font-family: Helvetica;
+
+}
+.Exp__heading p{
+    font-size:2.2rem;
+}
+.Exp__heading p:hover{
+    text-decoration: underline ;
+}
+.Exp__intern{
+    display: flex;
+    justify-content:center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.Exp__intern ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}

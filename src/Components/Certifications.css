@@ -1,0 +1,27 @@
+/* .Skill{
+    
+} */
+.Certification__heading{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    font-family: Helvetica;
+
+}
+.Certification__heading p{
+    font-size:2.2rem;
+}
+.Certification__heading p:hover{
+    text-decoration: underline ;
+}
+.Certification__pages{
+    display: flex;
+    justify-content:center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.Certification__pages ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}

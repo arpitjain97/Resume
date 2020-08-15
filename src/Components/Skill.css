@@ -1,0 +1,27 @@
+/* .Skill{
+    
+} */
+.Skill__heading{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    font-family: Helvetica;
+
+}
+.Skill__heading p{
+    font-size:2.2rem;
+}
+.Skill__heading p:hover{
+    text-decoration: underline ;
+}
+.Skill__skills{
+    display: flex;
+    justify-content:center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.Skill__skills ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}
